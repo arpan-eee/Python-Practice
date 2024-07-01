@@ -21,3 +21,6 @@ course = "Python \nProgramming"
 print(course)
 
 first = "arpan"
+last = "Chakraborty"
+print(f"{first} {last}")  # dynamic
+print(f"{len(first)} {len(last)}")
