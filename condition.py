@@ -6,7 +6,12 @@ elif temperature > 20:
 else:
     print("Its Cold")
 
-# ternary operator
 
+# ternary operator
 message = "Hot" if temperature > 30 else "Normal" if temperature > 20 else "Cold"
 print(message)
+
+age = 22
+
+if 18 <= age < 65:
+    print("Eligible")
